@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:gravity="center"
+    android:background="#e01f3d"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".UserHome" >
+
+    <Button
+        android:id="@+id/buttonuseregister"
+        android:layout_width="271dp"
+         android:layout_height="40dp"
+         android:background="#ffffff"
+         android:text="Register User"
+         android:textColor="#e01f3d"
+         android:textStyle="bold" />
+
+       <Button
+         android:id="@+id/buttonfammember"
+         android:layout_width="271dp"
+         android:layout_height="40dp"
+         android:background="#ffffff"
+         android:text="Register family members"
+         android:layout_marginTop="30dp"
+         android:textColor="#e01f3d"
+         android:textStyle="bold" />
+    
+
+       	   <Button
+         android:id="@+id/buttonvemg"
+         android:layout_width="271dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="30dp"
+         android:background="#ffffff"
+         android:text="View Emergency situations"
+         android:textColor="#e01f3d"
+         android:textStyle="bold" />
+       
+      
+       	   
+       	      <Button
+         android:id="@+id/buttonlogout"
+         android:layout_width="271dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="30dp"
+         android:background="#ffffff"
+         android:text="Logout"
+         android:textColor="#e01f3d"
+         android:textStyle="bold" />
+
+</LinearLayout>

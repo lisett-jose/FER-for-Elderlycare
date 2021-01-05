@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="static/img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Public Home</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="static/css/linearicons.css">
+			<link rel="stylesheet" href="static/css/font-awesome.min.css">
+			<link rel="stylesheet" href="static/css/bootstrap.css">
+			<link rel="stylesheet" href="static/css/magnific-popup.css">
+			<link rel="stylesheet" href="static/css/nice-select.css">							
+			<link rel="stylesheet" href="static/css/animate.min.css">
+			<link rel="stylesheet" href="static/css/owl.carousel.css">			
+			<link rel="stylesheet" href="static/css/jquery-ui.css">			
+			<link rel="stylesheet" href="static/css/main.css">
+			<style>
+			html {
+				scroll-behavior: smooth;
+			}
+		</style>
+		{% with messages = get_flashed_messages() %}
+		{% if messages %}
+		<ul class=flashes>
+			{% for message in messages %}
+			<script type="text/javascript">alert("{{message}}")</script>
+			{% endfor %}
+		</ul>
+		{% endif %}
+		{% endwith %}
+	</head>
+	<body>	
+		<header id="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="row align-items-center justify-content-center">
+						<div class="col-md-4 col-4 header-top-left no-padding">
+							<a href="mailto:support@colorlib.com"><span class="lnr lnr-location"></span></a>
+							<a class="contact-texts" href="mailto:support@colorlib.com">support@colorlib.com</a>		
+						</div>
+						<div class="col-md-4 col-4 header-top-bottom no-padding">
+							<!-- <a href="index.html"><img class="img-fluid" src="static/img/logo.png" alt="" title="" /></a>			 -->
+						</div>
+						<div class="col-md-4 col-4 header-top-right no-padding">
+							<a class="contact-texts" href="tel:+440 123 12 658 439">+440 123 12 658 439</a>
+							<a href="tel:+440 123 12 658 439"><span class="lnr lnr-phone-handset"></span></a>
+						</div>				  							  			
+					</div>			  					
+				</div>
+			</div>
+			<div class="container main-menu">
+				<div class="row align-items-center justify-content-center">	
+					<nav id="nav-menu-container">
+						<ul class="nav-menu">
+							<li class="menu-active"><a href="/">Home</a></li>
+							<li class="menu-active"><a href="/opencamera">Open camera</a></li>
+							
+						</ul>
+					</nav><!-- #nav-menu-container -->		
+				</div>
+			</div>
+		</header><!-- #header -->
+
+		<!-- start banner Area -->
+		<section class="banner-area relative  smooth-goto" id="login" >
+			<div class="overlay overlay-bg"></div>	
+			<div class="container">
+				<div class="row fullscreen d-flex align-items-center justify-content-between">
+					<div class="banner-content col-lg-6 col-md-12 ">
+						<h1 class="text-uppercase">
+							Care <br>
+							your 
+							Parents		
+						</h1>
+						<p  class="pt-10 pb-10 text-white">
+							We will care your parents like you !...
+						</p >
+						<!-- <a href="#" class="primary-btn">Become a Member</a> -->
+
+					</div>	
+				</div>
+			</div>					
+		</section >
+		<section class="aclculation-area section-gap relative" >
+			<div class="overlay overlay-bg"></div>				
+			<div class="container">
+				<div class="row section-title relative">
+					<!-- <p class="text-white">You love having a second home but the mortgage</p> -->
+				</div>		
+				
+			</div>	
+		</section>
